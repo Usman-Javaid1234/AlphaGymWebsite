@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, ChevronDown } from "lucide-react";
-import heroImage from "../assets/hero-gym.jpg";
+
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
+          src={"/hero-gym.jpg"}
           alt="Alpha Elite Fitness Gym Interior"
           className="w-full h-full object-cover"
         />
